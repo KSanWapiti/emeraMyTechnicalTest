@@ -1,0 +1,33 @@
+{
+  "proxy": "http://localhost:5000/emeratest-4dd32/us-central1/todoList",
+  "name": "vite-tailwind-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=production vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.1",
+
+    "axios": "^0.21.1",
+    "firebase": "^8.6.5",
+    "node": "^16.1.0",
+    "vue": "^3.0.11",
+    "vue-router": "^4.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.11",
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.12",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.2.3"
+  },
+  "resolutions": {
+    "postcss": "8.2.12"
+  }
+}
